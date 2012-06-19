@@ -47,6 +47,10 @@ extern "C" {
 #endif
 #include <sys/queue.h>
 
+#ifndef LIST_END
+#define	LIST_END(head)			NULL
+#endif
+
 /* Minimum allocation for a chain.  We define this so that we're burning no
  * more than 5% of each allocation on overhead.  It would be nice to lose even
  * less space, though. */

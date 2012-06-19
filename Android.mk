@@ -27,7 +27,7 @@ LOCAL_SRC_FILES :=                      \
     poll.c                              \
     select.c                            \
     signal.c                            \
-    strlcopy.c
+    strlcpy.c
 
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/include/
 

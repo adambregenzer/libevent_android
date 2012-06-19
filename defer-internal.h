@@ -35,6 +35,10 @@ extern "C" {
 
 #include <sys/queue.h>
 
+#ifndef LIST_END
+#define	LIST_END(head)			NULL
+#endif
+
 struct deferred_cb;
 
 typedef void (*deferred_cb_fn)(struct deferred_cb *, void *);
