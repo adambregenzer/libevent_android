@@ -21,6 +21,7 @@ LOCAL_SRC_FILES :=                      \
     evthread.c                          \
     evutil.c                            \
     evutil_rand.c                       \
+    evutil_time.c                       \
     http.c                              \
     listener.c                          \
     log.c                               \
